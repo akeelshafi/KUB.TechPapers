@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+   <item
+       android:id="@+id/about_us"
+       android:title="@string/about_us"
+       />
+    <item
+        android:id="@+id/privacy_policy"
+        android:title="@string/privacy_policy" />
+    <item
+        android:id="@+id/check_for_updates"
+        android:title="@string/check_for_updates" />
+    <item
+        android:id="@+id/share_app"
+        android:title="@string/share_this_app" />
+    <item
+        android:id="@+id/rate_us"
+        android:title="@string/rate_us" />
+</menu>

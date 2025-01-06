@@ -2,4 +2,27 @@
     <string name="app_name">KU B.Tech Papers</string>
     <string name="ku_b_tech_papers">B.Tech Papers</string>
     <string name="previous_years_ku_b_tech_papers">Previous Years B.Tech Question Papers</string>
+    <string name="syllabus">Syllabus</string>
+    <string name="previous_year_question_papers">Previous Year\nQuestion Papers</string>
+    <string name="results">Results</string>
+    <string name="about_us">About Us</string>
+    <string name="about_us_image">About us image</string>
+    <string name="result_image">Result Image</string>
+    <string name="pyq_image">Pyq image</string>
+    <string name="syllabus_image">Syllabus image</string>
+    <string name="engineering_branches">Engineering Branches</string>
+    <string name="computer_engineering_img">computerEngineeringImg</string>
+    <string name="computer_engineering">Computer\nEngineering</string>
+    <string name="mechanical_engineering">Mechanical\nEngineering</string>
+    <string name="electrical_img">electrical_img</string>
+    <string name="electrical_engineering">Electrical\nEngineering</string>
+    <string name="electronics_engineering">Electronics\nEngineering</string>
+    <string name="civil_engineering">Civil\nEngineering</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="check_for_updates">Check For Updates</string>
+    <string name="share_this_app">Share This App</string>
+    <string name="rate_us">Rate Us</string>
+    <string name="study_image">study_image</string>
+    <string name="study_materials">Study Materials</string>
 </resources>
