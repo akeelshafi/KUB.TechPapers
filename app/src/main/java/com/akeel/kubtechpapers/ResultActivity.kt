@@ -1,5 +1,6 @@
 package com.akeel.kubtechpapers
 
+import android.annotation.SuppressLint
 import android.net.http.SslError
 import android.os.Bundle
 import android.webkit.SslErrorHandler
@@ -16,6 +17,7 @@ class ResultActivity : AppCompatActivity() {
         ActivityResultBinding.inflate(layoutInflater)
     }
 
+    @SuppressLint("SetJavaScriptEnabled")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(binding.root)
@@ -29,6 +31,7 @@ class ResultActivity : AppCompatActivity() {
 
         // Set WebViewClient to handle navigation
         webView.webViewClient = object : WebViewClient() {
+            @SuppressLint("WebViewClientOnReceivedSslError")
             override fun onReceivedSslError(
                 view: WebView?, handler: SslErrorHandler?, error: SslError?
             ) {

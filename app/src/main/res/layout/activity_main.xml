@@ -10,7 +10,16 @@
     android:orientation="vertical">
 
     <!-- Toolbar -->
-    <include layout="@layout/custom_toolbar" />
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/main_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/toolbar_color"
+        android:elevation="4dp"
+        app:menu="@menu/menu_bar"
+        app:title="KU B.Tech Papers"
+        app:titleTextColor="@color/white" />
+
 
     <!-- ScrollView to contain cards -->
     <ScrollView
@@ -95,8 +104,7 @@
                 android:layout_marginEnd="15dp"
                 android:clickable="true"
                 app:cardCornerRadius="20dp"
-                app:cardElevation="40dp"
-                tools:ignore="KeyboardInaccessibleWidget">
+                app:cardElevation="40dp">
 
                 <LinearLayout
                     android:layout_width="match_parent"
