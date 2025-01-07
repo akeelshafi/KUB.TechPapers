@@ -13,10 +13,11 @@
         android:theme="@style/Theme.KUBTechPapers"
         tools:targetApi="31">
         <activity
+            android:name=".SyllabusActivity"
+            android:exported="false" />
+        <activity
             android:name=".EngineeringBranchesActivity"
-            android:exported="true" >
-
-        </activity>
+            android:exported="true" />
         <activity
             android:name=".MainActivity"
             android:exported="true">
@@ -25,7 +26,6 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-
         </activity>
 
         <meta-data
