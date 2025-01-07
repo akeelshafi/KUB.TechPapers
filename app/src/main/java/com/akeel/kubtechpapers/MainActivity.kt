@@ -19,6 +19,7 @@ class MainActivity : AppCompatActivity() {
         }
         val pastPapers: CardView = findViewById(R.id.previous_year_question_papers)
         val syllabus: CardView = findViewById(R.id.syllabus)
+        val result: CardView = findViewById(R.id.results)
 
         // Set an OnClickListener
         pastPapers.setOnClickListener {
@@ -36,8 +37,13 @@ class MainActivity : AppCompatActivity() {
         button.setOnClickListener {
             Toast.makeText(this, "This Section Will be Live Soon", Toast.LENGTH_SHORT).show()
         }
+        // Set an OnClickListener
+        result.setOnClickListener {
+            // Create an Intent to navigate to the second activity
+            val intent = Intent(this, ResultActivity::class.java)
+            startActivity(intent)
 
-
+        }
 
     }
 }
