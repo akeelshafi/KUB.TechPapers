@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
-    <!-- Permission for internet access -->
+
     <uses-permission android:name="android.permission.INTERNET" />
 
     <application
@@ -14,34 +14,31 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.KUBTechPapers"
         tools:targetApi="31">
-
-        <!-- Main Activity -->
+        <activity
+            android:name=".WebViewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DataActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ResultActivity"
+            android:exported="true" />
+        <activity
+            android:name=".SyllabusActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EngineeringBranchesActivity"
+            android:exported="true" />
         <activity
             android:name=".MainActivity"
-            android:exported="true"
-            android:theme="@style/Theme.KUBTechPapers"> <!-- Apply theme -->
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
 
-        </activity> <!-- Result Activity -->
-        <activity
-            android:name=".ResultActivity"
-            android:exported="true"
-            android:theme="@style/Theme.KUBTechPapers" /> <!-- Apply theme -->
-        <!-- Syllabus Activity -->
-        <activity
-            android:name=".SyllabusActivity"
-            android:exported="true"
-            android:theme="@style/Theme.KUBTechPapers" /> <!-- Apply theme -->
-        <!-- Engineering Branches Activity -->
-        <activity
-            android:name=".EngineeringBranchesActivity"
-            android:exported="true"
-            android:theme="@style/Theme.KUBTechPapers" /> <!-- Apply theme -->
-        <!-- Metadata for preloaded fonts -->
         <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />
