@@ -43,7 +43,7 @@ class ResultActivity : AppCompatActivity() {
         webView.webChromeClient = WebChromeClient()
 
         // Load the URL
-        webView.loadUrl("https://drive.google.com/drive/folders/1EqkG8KWskXBscAOh3pE53zJJjNk7JuLK?usp=sharing")
+        webView.loadUrl("https://www.kashmiruniversity.net/Examination.aspx")
 
         // Set up window insets (Edge-to-edge)
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->

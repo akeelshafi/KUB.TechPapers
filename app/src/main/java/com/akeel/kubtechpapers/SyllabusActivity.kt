@@ -19,11 +19,11 @@ class SyllabusActivity : AppCompatActivity() {
         val cardUnit5 = findViewById<CardView>(R.id.syllabus_electronics_engineering)
 
         // URLs for each card
-        val urlUnit1 = "https://example.com/unit1"
-        val urlUnit2 = "https://example.com/unit2"
-        val urlUnit3 = "https://example.com/unit3"
-        val urlUnit4 = "https://example.com/unit4"
-        val urlUnit5 = "https://example.com/unit5"
+        val urlUnit1 = "https://drive.google.com/file/d/1GVnQn3TBgx3c4YSuTfk55oYV1MQmj97i/view?usp=sharing"
+        val urlUnit2 = "https://drive.google.com/file/d/1GVnQn3TBgx3c4YSuTfk55oYV1MQmj97i/view?usp=sharing"
+        val urlUnit3 = "https://drive.google.com/file/d/1GVnQn3TBgx3c4YSuTfk55oYV1MQmj97i/view?usp=sharing"
+        val urlUnit4 = "https://drive.google.com/file/d/1GVnQn3TBgx3c4YSuTfk55oYV1MQmj97i/view?usp=sharing"
+        val urlUnit5 = "https://drive.google.com/file/d/1GVnQn3TBgx3c4YSuTfk55oYV1MQmj97i/view?usp=sharing"
 
         // Setting up click listeners
         cardUnit1.setOnClickListener { openWebView(urlUnit1) }

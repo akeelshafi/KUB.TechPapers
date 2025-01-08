@@ -18,9 +18,6 @@
             android:name=".WebViewActivity"
             android:exported="false" />
         <activity
-            android:name=".DataActivity"
-            android:exported="false" />
-        <activity
             android:name=".ResultActivity"
             android:exported="true" />
         <activity

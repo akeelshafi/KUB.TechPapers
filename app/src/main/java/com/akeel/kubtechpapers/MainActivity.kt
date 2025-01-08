@@ -28,7 +28,7 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
         }
         syllabus.setOnClickListener{
-            val intent = Intent(this,SyllabusActivity::class.java)
+            val intent = Intent(this, SyllabusActivity::class.java)
             startActivity(intent)
         }
 
