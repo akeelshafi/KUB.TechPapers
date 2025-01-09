@@ -20,6 +20,7 @@ class MainActivity : AppCompatActivity() {
         val pastPapers: CardView = findViewById(R.id.previous_year_question_papers)
         val syllabus: CardView = findViewById(R.id.syllabus)
         val result: CardView = findViewById(R.id.results)
+        val aboutUs: CardView = findViewById(R.id.aboutus)
 
         // Set an OnClickListener
         pastPapers.setOnClickListener {
@@ -41,6 +42,13 @@ class MainActivity : AppCompatActivity() {
         result.setOnClickListener {
             // Create an Intent to navigate to the second activity
             val intent = Intent(this, ResultActivity::class.java)
+            startActivity(intent)
+
+        }
+        // Set an OnClickListener
+        aboutUs.setOnClickListener {
+            // Create an Intent to navigate to the second activity
+            val intent = Intent(this, AboutUsActivity::class.java)
             startActivity(intent)
 
         }

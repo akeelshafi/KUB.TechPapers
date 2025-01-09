@@ -19,7 +19,7 @@ class SyllabusActivity : AppCompatActivity() {
         val cardUnit5 = findViewById<CardView>(R.id.syllabus_electronics_engineering)
 
         // URLs for each card
-        val urlUnit1 = "https://drive.google.com/file/d/1GVnQn3TBgx3c4YSuTfk55oYV1MQmj97i/view?usp=sharing"
+        val urlUnit1 = "https://drive.google.com/drive/folders/1C6oKSh4DLaM85NkmbZER_nuQkkJfPQ9C?usp=sharing"
         val urlUnit2 = "https://drive.google.com/file/d/1GVnQn3TBgx3c4YSuTfk55oYV1MQmj97i/view?usp=sharing"
         val urlUnit3 = "https://drive.google.com/file/d/1GVnQn3TBgx3c4YSuTfk55oYV1MQmj97i/view?usp=sharing"
         val urlUnit4 = "https://drive.google.com/file/d/1GVnQn3TBgx3c4YSuTfk55oYV1MQmj97i/view?usp=sharing"

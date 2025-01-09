@@ -23,7 +23,7 @@ class ResultActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         // Initialize WebView
-        val webView: WebView = findViewById(R.id.web_view)
+        val webView: WebView = findViewById(R.id.result_web_view)
 
         // Enable JavaScript
         val webSettings = webView.settings

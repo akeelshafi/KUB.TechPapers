@@ -28,7 +28,7 @@ class WebViewActivity : AppCompatActivity() {
             insets
         }
 
-        val webView = findViewById<WebView>(R.id.webView)
+        val webView = findViewById<WebView>(R.id.syllabus_web_view)
         val url = intent.getStringExtra("URL") // Retrieve the URL from Intent
 
         if (url != null) {
