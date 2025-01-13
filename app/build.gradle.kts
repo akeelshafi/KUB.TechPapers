@@ -7,6 +7,10 @@ android {
     namespace = "com.akeel.kubtechpapers"
     compileSdk = 35
 
+    buildFeatures{
+        viewBinding = true
+    }
+
     defaultConfig {
         applicationId = "com.akeel.kubtechpapers"
         minSdk = 24
@@ -26,9 +30,7 @@ android {
             )
         }
     }
-    buildFeatures{
-        viewBinding = true
-    }
+
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_1_8
         targetCompatibility = JavaVersion.VERSION_1_8
@@ -48,5 +50,6 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
+
 
 }

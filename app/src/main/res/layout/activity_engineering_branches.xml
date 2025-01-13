@@ -11,230 +11,239 @@
 
     <include layout="@layout/custom_toolbar" />
 
-    <ScrollView
+
+
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
 
-        <LinearLayout
-            android:layout_width="match_parent"
+        <TextView
+            android:id="@+id/heading"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:orientation="vertical" >
-
-            <TextView
-                android:id="@+id/heading"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="12dp"
-                android:layout_marginTop="10dp"
-                android:text="@string/engineering_branches"
-                android:textSize="25sp"
-                android:textStyle="bold"
-                android:textColor="@color/black"/>
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/engineering_branches"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"/>
 
 
-            <androidx.cardview.widget.CardView
-                android:id="@+id/computer_science"
+        <androidx.cardview.widget.CardView
+            android:id="@+id/computer_science"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="12dp"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="40dp">
+
+            <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="120dp"
-                android:layout_marginStart="12dp"
-                android:layout_marginTop="20dp"
-                android:layout_marginEnd="12dp"
-                app:cardCornerRadius="20dp"
-                app:cardElevation="40dp">
+                android:layout_height="match_parent"
+                android:background="@drawable/syllabus"
+                android:orientation="horizontal"
+                android:padding="10dp">
 
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:background="@drawable/syllabus"
-                    android:orientation="horizontal"
-                    android:padding="10dp">
+                <TextView
+                    android:id="@+id/computer_science_txt"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="2"
+                    android:text="@string/computer_engineering"
+                    android:textColor="#FFFFFF"
+                    android:textSize="28sp" />
 
-                    <TextView
-                        android:id="@+id/computer_science_txt"
-                        android:layout_width="0dp"
-                        android:layout_height="wrap_content"
-                        android:layout_marginStart="10dp"
-                        android:layout_marginTop="10dp"
-                        android:layout_weight="2"
-                        android:text="@string/computer_engineering"
-                        android:textColor="#FFFFFF"
-                        android:textSize="28sp" />
+                <ImageView
+                    android:id="@+id/computer_science_img"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:contentDescription="@string/computer_engineering_img"
+                    android:scaleType="fitStart"
+                    app:srcCompat="@drawable/computerimg" />
+            </LinearLayout>
 
-                    <ImageView
-                        android:id="@+id/computer_science_img"
-                        android:layout_width="0dp"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:contentDescription="@string/computer_engineering_img"
-                        android:scaleType="fitStart"
-                        app:srcCompat="@drawable/computerimg" />
-                </LinearLayout>
+        </androidx.cardview.widget.CardView>
 
-            </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/civil_engineering"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="12dp"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="40dp">
 
-            <androidx.cardview.widget.CardView
-                android:id="@+id/civil_engineering"
+            <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="120dp"
-                android:layout_marginStart="12dp"
-                android:layout_marginTop="20dp"
-                android:layout_marginEnd="12dp"
-                app:cardCornerRadius="20dp"
-                app:cardElevation="40dp">
+                android:layout_height="match_parent"
+                android:background="@drawable/previous_year_question_papers"
+                android:orientation="horizontal"
+                android:padding="10dp">
 
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:background="@drawable/previous_year_question_papers"
-                    android:orientation="horizontal"
-                    android:padding="10dp">
+                <TextView
+                    android:id="@+id/civil_engineering_txt"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="2"
+                    android:text="@string/civil_engineering"
+                    android:textColor="#00FFFF"
+                    android:textSize="28sp" />
 
-                    <TextView
-                        android:id="@+id/civil_engineering_txt"
-                        android:layout_width="0dp"
-                        android:layout_height="wrap_content"
-                        android:layout_marginStart="10dp"
-                        android:layout_marginTop="10dp"
-                        android:layout_weight="2"
-                        android:text="@string/civil_engineering"
-                        android:textColor="#00FFFF"
-                        android:textSize="28sp" />
+                <ImageView
+                    android:id="@+id/civil_engineering_img"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:contentDescription="@string/civil_engineering"
+                    android:scaleType="fitStart"
+                    app:srcCompat="@drawable/civilimg"
+                    tools:ignore="ImageContrastCheck" />
 
-                    <ImageView
-                        android:id="@+id/civil_engineering_img"
-                        android:layout_width="0dp"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:contentDescription="@string/civil_engineering"
-                        android:scaleType="fitStart"
-                        app:srcCompat="@drawable/civilimg"
-                        tools:ignore="ImageContrastCheck" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
 
-                </LinearLayout>
-            </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/mechanical_engineering"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="12dp"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="40dp">
 
-            <androidx.cardview.widget.CardView
-                android:id="@+id/mechanical_engineering"
+            <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="120dp"
-                android:layout_marginStart="12dp"
-                android:layout_marginTop="20dp"
-                android:layout_marginEnd="12dp"
-                app:cardCornerRadius="20dp"
-                app:cardElevation="40dp">
+                android:layout_height="match_parent"
+                android:background="@drawable/aboutus"
+                android:orientation="horizontal"
+                android:padding="10dp">
 
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:background="@drawable/aboutus"
-                    android:orientation="horizontal"
-                    android:padding="10dp">
+                <TextView
+                    android:id="@+id/mechanical_engineering_txt"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="2"
+                    android:text="@string/mechanical_engineering"
+                    android:textColor="#FFFFFF"
+                    android:textSize="28sp" />
 
-                    <TextView
-                        android:id="@+id/mechanical_engineering_txt"
-                        android:layout_width="0dp"
-                        android:layout_height="wrap_content"
-                        android:layout_marginStart="10dp"
-                        android:layout_marginTop="10dp"
-                        android:layout_weight="2"
-                        android:text="@string/mechanical_engineering"
-                        android:textColor="#FFFFFF"
-                        android:textSize="28sp" />
+                <ImageView
+                    android:id="@+id/mechanical_engineering_img"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:contentDescription="@string/mechanical_engineering"
+                    android:scaleType="fitStart"
+                    app:srcCompat="@drawable/mechanicalimg"
+                    tools:ignore="ImageContrastCheck" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
 
-                    <ImageView
-                        android:id="@+id/mechanical_engineering_img"
-                        android:layout_width="0dp"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:contentDescription="@string/mechanical_engineering"
-                        android:scaleType="fitStart"
-                        app:srcCompat="@drawable/mechanicalimg"
-                        tools:ignore="ImageContrastCheck" />
-                </LinearLayout>
-            </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/electrical_engineering"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="12dp"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="40dp">
 
-            <androidx.cardview.widget.CardView
-                android:id="@+id/electrical_engineering"
+            <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="120dp"
-                android:layout_marginStart="12dp"
-                android:layout_marginTop="20dp"
-                android:layout_marginEnd="12dp"
-                app:cardCornerRadius="20dp"
-                app:cardElevation="40dp">
+                android:layout_height="match_parent"
+                android:background="@drawable/results"
+                android:orientation="horizontal"
+                android:padding="10dp">
 
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:background="@drawable/results"
-                    android:orientation="horizontal"
-                    android:padding="10dp">
-
-                    <TextView
-                        android:id="@+id/electrical_engineering_txt"
-                        android:layout_width="0dp"
-                        android:layout_height="wrap_content"
-                        android:layout_marginStart="10dp"
-                        android:layout_marginTop="10dp"
-                        android:layout_weight="2"
-                        android:text="@string/electrical_engineering"
-                        android:textColor="#FFFFFF"
-                        android:textSize="28sp" />
+                <TextView
+                    android:id="@+id/electrical_engineering_txt"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="2"
+                    android:text="@string/electrical_engineering"
+                    android:textColor="#FFFFFF"
+                    android:textSize="28sp" />
 
 
-                    <ImageView
-                        android:id="@+id/electrical_engineering_img"
-                        android:layout_width="0dp"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:contentDescription="@string/electrical_img"
-                        android:scaleType="fitStart"
-                        app:srcCompat="@drawable/electricalimg"
-                        tools:ignore="ImageContrastCheck" />
+                <ImageView
+                    android:id="@+id/electrical_engineering_img"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:contentDescription="@string/electrical_img"
+                    android:scaleType="fitStart"
+                    app:srcCompat="@drawable/electricalimg"
+                    tools:ignore="ImageContrastCheck" />
 
-                </LinearLayout>
-            </androidx.cardview.widget.CardView>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
 
-            <androidx.cardview.widget.CardView
-                android:id="@+id/electronics_engineering"
+        <androidx.cardview.widget.CardView
+            android:id="@+id/electronics_engineering"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="12dp"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="40dp">
+
+            <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="120dp"
-                android:layout_marginStart="12dp"
-                android:layout_marginTop="20dp"
-                android:layout_marginEnd="12dp"
-                app:cardCornerRadius="20dp"
-                app:cardElevation="40dp">
+                android:layout_height="match_parent"
+                android:background="@drawable/study_material"
+                android:orientation="horizontal"
+                android:padding="10dp">
 
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:background="@drawable/study_material"
-                    android:orientation="horizontal"
-                    android:padding="10dp">
+                <TextView
+                    android:id="@+id/electronics_engineering_txt"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="2"
+                    android:text="@string/electronics_engineering"
+                    android:textColor="#FFFFFF"
+                    android:textSize="28sp" />
 
-                    <TextView
-                        android:id="@+id/electronics_engineering_txt"
-                        android:layout_width="0dp"
-                        android:layout_height="wrap_content"
-                        android:layout_marginStart="10dp"
-                        android:layout_marginTop="10dp"
-                        android:layout_weight="2"
-                        android:text="@string/electronics_engineering"
-                        android:textColor="#FFFFFF"
-                        android:textSize="28sp" />
+                <ImageView
+                    android:id="@+id/electronics_engineering_img"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:contentDescription="@string/electronics_engineering"
+                    android:scaleType="fitStart"
+                    app:srcCompat="@drawable/electronicsimg" />
 
-                    <ImageView
-                        android:id="@+id/electronics_engineering_img"
-                        android:layout_width="0dp"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:contentDescription="@string/electronics_engineering"
-                        android:scaleType="fitStart"
-                        app:srcCompat="@drawable/electronicsimg" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
 
-                </LinearLayout>
-            </androidx.cardview.widget.CardView>
+    </LinearLayout>
+</ScrollView>
 
-        </LinearLayout>
-    </ScrollView>
+
+
+
+
+
 </LinearLayout>
