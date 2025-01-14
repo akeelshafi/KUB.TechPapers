@@ -18,15 +18,14 @@ class WebViewActivity : AppCompatActivity() {
         enableEdgeToEdge()
         setContentView(R.layout.activity_web_view)
 
-        // Set up the progress bar
-        progressBar = findViewById(R.id.progressBar)
-
         // Ensure padding is applied for system bars (status bar and navigation bar)
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
             val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
+        // Set up the progress bar
+        progressBar = findViewById(R.id.progressBar)
 
         val webView = findViewById<WebView>(R.id.syllabus_web_view)
         val url = intent.getStringExtra("URL") // Retrieve the URL from Intent

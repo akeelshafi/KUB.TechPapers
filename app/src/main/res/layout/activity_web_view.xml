@@ -17,7 +17,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:title="University of Kashmir"
+        app:title="B.Tech Syllabus"
         android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" />
 
     <android.webkit.WebView
@@ -37,7 +37,5 @@
             android:layout_x="170dp"
             android:layout_y="300dp" />
     </android.webkit.WebView>
-
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>

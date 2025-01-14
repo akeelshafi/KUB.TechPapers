@@ -8,7 +8,6 @@
     android:background="@color/white"
     tools:context=".MainActivity"
     android:orientation="vertical">
-
     <include layout="@layout/custom_toolbar" />
 
     <!-- ScrollView to contain cards -->
@@ -72,7 +71,7 @@
                         android:layout_weight="2"
                         android:text="@string/syllabus"
                         android:textColor="#FFFFFF"
-                        android:textSize="30sp" />
+                        android:textSize="28sp" />
 
                     <ImageView
                         android:id="@+id/syllabus_img"
@@ -153,7 +152,7 @@
                         android:layout_weight="2"
                         android:text="@string/study_materials"
                         android:textColor="#00FFFF"
-                        android:textSize="30sp" />
+                        android:textSize="28sp" />
 
                     <ImageView
                         android:id="@+id/about_us_img1"
@@ -195,7 +194,7 @@
                         android:layout_weight="2"
                         android:text="@string/results"
                         android:textColor="#FFFFFF"
-                        android:textSize="30sp" />
+                        android:textSize="28sp" />
 
                     <ImageView
                         android:id="@+id/results_img"
@@ -235,7 +234,7 @@
                         android:layout_weight="2"
                         android:text="@string/about_us"
                         android:textColor="@color/white"
-                        android:textSize="30sp"
+                        android:textSize="28sp"
                         tools:ignore="TextContrastCheck" />
 
                     <ImageView
@@ -249,9 +248,6 @@
                         tools:ignore="ImageContrastCheck" />
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
-
-            <!-- Another Card for About Us (Duplicate) -->
-
         </LinearLayout>
     </ScrollView>
 

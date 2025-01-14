@@ -14,9 +14,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.KUBTechPapers"
         tools:targetApi="31">
-        <activity
-            android:name=".SemesterActivity"
-            android:exported="false" />
+
         <activity
             android:name=".AboutUsActivity"
             android:exported="false" />
