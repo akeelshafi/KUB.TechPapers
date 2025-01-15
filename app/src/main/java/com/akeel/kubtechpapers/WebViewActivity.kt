@@ -15,7 +15,6 @@ class WebViewActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        enableEdgeToEdge()
         setContentView(R.layout.activity_web_view)
 
         // Ensure padding is applied for system bars (status bar and navigation bar)
