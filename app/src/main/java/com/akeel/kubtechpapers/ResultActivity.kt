@@ -7,6 +7,7 @@ import android.webkit.SslErrorHandler
 import android.webkit.WebChromeClient
 import android.webkit.WebView
 import android.webkit.WebViewClient
+import android.widget.ProgressBar
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
@@ -16,14 +17,14 @@ class ResultActivity : AppCompatActivity() {
     private val binding: ActivityResultBinding by lazy {
         ActivityResultBinding.inflate(layoutInflater)
     }
-
     @SuppressLint("SetJavaScriptEnabled")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(binding.root)
 
-        // Initialize WebView
+        // Initialize WebView and ProgressBar
         val webView: WebView = findViewById(R.id.result_web_view)
+        val progressBar: ProgressBar = findViewById(R.id.result_progress_bar)
 
         // Enable JavaScript
         val webSettings = webView.settings
@@ -37,10 +38,18 @@ class ResultActivity : AppCompatActivity() {
             ) {
                 handler?.proceed()  // Ignore SSL errors (not recommended for production)
             }
+
+            override fun onPageFinished(view: WebView?, url: String?) {
+                super.onPageFinished(view, url)
+                progressBar.visibility = ProgressBar.GONE // Hide progress bar
+            }
         }
 
         // Set WebChromeClient for better handling of web page loading
         webView.webChromeClient = WebChromeClient()
+
+        // Show progress bar while loading
+        progressBar.visibility = ProgressBar.VISIBLE
 
         // Load the URL
         webView.loadUrl("https://www.kashmiruniversity.net/Examination.aspx")
