@@ -3,6 +3,7 @@ package com.akeel.kubtechpapers
 import android.annotation.SuppressLint
 import android.net.http.SslError
 import android.os.Bundle
+import android.view.KeyEvent
 import android.webkit.SslErrorHandler
 import android.webkit.WebChromeClient
 import android.webkit.WebView
@@ -17,13 +18,16 @@ class ResultActivity : AppCompatActivity() {
     private val binding: ActivityResultBinding by lazy {
         ActivityResultBinding.inflate(layoutInflater)
     }
+
+    private lateinit var webView: WebView
+
     @SuppressLint("SetJavaScriptEnabled")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(binding.root)
 
         // Initialize WebView and ProgressBar
-        val webView: WebView = findViewById(R.id.result_web_view)
+        webView = findViewById(R.id.result_web_view)
         val progressBar: ProgressBar = findViewById(R.id.result_progress_bar)
 
         // Enable JavaScript
@@ -60,5 +64,13 @@ class ResultActivity : AppCompatActivity() {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
+    }
+    override fun onKeyDown(keyCode: Int, event: KeyEvent?): Boolean {
+
+        if (keyCode == KeyEvent.KEYCODE_BACK && binding.resultWebView.canGoBack()){
+            binding.resultWebView.goBack()
+            return true
+        }
+        return super.onKeyDown(keyCode, event)
     }
 }

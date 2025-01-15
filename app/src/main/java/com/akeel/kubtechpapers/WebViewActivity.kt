@@ -1,18 +1,21 @@
 package com.akeel.kubtechpapers
 
+import android.annotation.SuppressLint
 import android.os.Bundle
+import android.view.KeyEvent
 import android.webkit.WebChromeClient
 import android.webkit.WebView
 import android.webkit.WebViewClient
 import android.widget.ProgressBar
-import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 
 class WebViewActivity : AppCompatActivity() {
+    private lateinit var webView: WebView
     private lateinit var progressBar: ProgressBar
 
+    @SuppressLint("SetJavaScriptEnabled")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_web_view)
@@ -23,11 +26,13 @@ class WebViewActivity : AppCompatActivity() {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
-        // Set up the progress bar
-        progressBar = findViewById(R.id.progressBar)
 
-        val webView = findViewById<WebView>(R.id.syllabus_web_view)
-        val url = intent.getStringExtra("URL") // Retrieve the URL from Intent
+        // Initialize WebView and ProgressBar
+        progressBar = findViewById(R.id.progressBar)
+        webView = findViewById(R.id.syllabus_web_view)
+
+        // Retrieve the URL from the Intent
+        val url = intent.getStringExtra("URL")
 
         if (url != null) {
             // Enable JavaScript
@@ -37,16 +42,27 @@ class WebViewActivity : AppCompatActivity() {
                 // Show progress bar while loading the page
                 override fun onProgressChanged(view: WebView, newProgress: Int) {
                     super.onProgressChanged(view, newProgress)
-                    // Show the progress bar when loading
                     if (newProgress < 100) {
                         progressBar.visibility = ProgressBar.VISIBLE
                     } else {
-                        // Hide the progress bar when the page is fully loaded
                         progressBar.visibility = ProgressBar.GONE
                     }
                 }
             }
-            webView.loadUrl(url) // Load the URL in the WebView
+            // Load the URL in the WebView
+            webView.loadUrl(url)
+        } else {
+            // Handle null URL
+            webView.loadUrl("about:blank")
         }
+    }
+
+    override fun onKeyDown(keyCode: Int, event: KeyEvent?): Boolean {
+        // Handle back press for WebView
+        if (keyCode == KeyEvent.KEYCODE_BACK && webView.canGoBack()) {
+            webView.goBack() // Navigate back in WebView history
+            return true
+        }
+        return super.onKeyDown(keyCode, event) // Default behavior
     }
 }
