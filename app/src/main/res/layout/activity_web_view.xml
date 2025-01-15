@@ -5,8 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".WebViewActivity"
-    android:orientation="vertical">
+    tools:context=".WebViewActivity">
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/syllabus_toolbar"
@@ -17,7 +16,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:title="B.Tech Syllabus"
+        app:title="KU B.Tech Syllabus"
         android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" />
 
     <android.webkit.WebView
@@ -27,15 +26,18 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/syllabus_toolbar" >
+        app:layout_constraintTop_toBottomOf="@+id/syllabus_toolbar" />
 
-        <ProgressBar
-            android:id="@+id/progressBar"
-            style="?android:attr/progressBarStyle"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_x="170dp"
-            android:layout_y="300dp" />
-    </android.webkit.WebView>
+    <!-- ProgressBar positioned on top of WebView and centered -->
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_gravity="center" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
