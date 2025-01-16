@@ -13,12 +13,14 @@
     <!-- ScrollView to contain cards -->
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="match_parent"
+        android:background="@color/white">
         <!-- Linear Layout to hold all cards -->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:background="@color/white">
 
             <!-- Main Heading -->
             <TextView
@@ -52,8 +54,7 @@
                 android:layout_marginStart="15dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginEnd="15dp"
-                app:cardCornerRadius="20dp"
-                app:cardElevation="40dp">
+                app:cardCornerRadius="20dp">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -69,6 +70,7 @@
                         android:layout_marginStart="10dp"
                         android:layout_marginTop="10dp"
                         android:layout_weight="2"
+                        android:fontFamily="@font/roboto"
                         android:text="@string/syllabus"
                         android:textColor="#FFFFFF"
                         android:textSize="28sp" />
@@ -84,7 +86,6 @@
                 </LinearLayout>
 
             </androidx.cardview.widget.CardView>
-
             <!-- Card for Previous Year Question Papers -->
             <androidx.cardview.widget.CardView
                 android:id="@+id/previous_year_question_papers"
@@ -93,9 +94,8 @@
                 android:layout_marginStart="15dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginEnd="15dp"
-                android:clickable="true"
                 app:cardCornerRadius="20dp"
-                app:cardElevation="40dp">
+               >
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -111,6 +111,7 @@
                         android:layout_marginStart="10dp"
                         android:layout_marginTop="10dp"
                         android:layout_weight="2"
+                        android:fontFamily="@font/roboto"
                         android:text="@string/previous_year_question_papers"
                         android:textColor="#FFFFFF"
                         android:textSize="26sp" />
@@ -125,7 +126,6 @@
                         app:srcCompat="@drawable/previousyearpapersimg" />
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
-
             <androidx.cardview.widget.CardView
                 android:id="@+id/study_material"
                 android:layout_width="match_parent"
@@ -133,8 +133,7 @@
                 android:layout_marginStart="15dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginEnd="15dp"
-                app:cardCornerRadius="20dp"
-                app:cardElevation="40dp">
+                app:cardCornerRadius="20dp">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -150,6 +149,7 @@
                         android:layout_marginStart="10dp"
                         android:layout_marginTop="10dp"
                         android:layout_weight="2"
+                        android:fontFamily="@font/roboto"
                         android:text="@string/study_materials"
                         android:textColor="#00FFFF"
                         android:textSize="28sp" />
@@ -165,8 +165,6 @@
                         tools:ignore="ImageContrastCheck" />
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
-
-
             <!-- Card for Results -->
             <androidx.cardview.widget.CardView
                 android:id="@+id/results"
@@ -175,8 +173,7 @@
                 android:layout_marginStart="15dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginEnd="15dp"
-                app:cardCornerRadius="20dp"
-                app:cardElevation="40dp">
+                app:cardCornerRadius="20dp">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -192,6 +189,7 @@
                         android:layout_marginStart="10dp"
                         android:layout_marginTop="10dp"
                         android:layout_weight="2"
+                        android:fontFamily="@font/roboto"
                         android:text="@string/results"
                         android:textColor="#FFFFFF"
                         android:textSize="28sp" />
@@ -203,10 +201,10 @@
                         android:layout_weight="1"
                         android:contentDescription="@string/result_image"
                         android:scaleType="fitStart"
-                        app:srcCompat="@drawable/resultimg" />
+                        app:srcCompat="@drawable/resultimg"
+                        tools:ignore="ImageContrastCheck" />
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
-
             <!-- Card for About Us -->
             <androidx.cardview.widget.CardView
                 android:id="@+id/aboutus"
@@ -216,7 +214,7 @@
                 android:layout_marginTop="20dp"
                 android:layout_marginEnd="15dp"
                 app:cardCornerRadius="20dp"
-                app:cardElevation="40dp">
+                android:layout_marginBottom="10dp">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -232,6 +230,7 @@
                         android:layout_marginStart="10dp"
                         android:layout_marginTop="10dp"
                         android:layout_weight="2"
+                        android:fontFamily="@font/roboto"
                         android:text="@string/about_us"
                         android:textColor="@color/white"
                         android:textSize="28sp"
