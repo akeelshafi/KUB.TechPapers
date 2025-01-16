@@ -1,7 +1,20 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
     <style name="Base.Theme.KUBTechPapers" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your dark theme here. -->
-        <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorPrimary">@color/toolbar_color</item> <!-- Toolbar color -->
+        <item name="colorPrimaryDark">@color/toolbar_color</item> <!-- StatusBar color -->
+
+        <!-- Set the same color for Toolbar and StatusBar -->
+
     </style>
+
+    <style name="Theme.KUBTechPapers" parent="Base.Theme.KUBTechPapers" />
+
+    <style name="CustomPopupMenu" parent="Widget.AppCompat.PopupMenu.Overflow">
+        <item name="android:popupBackground">#000000</item> <!-- Background color (light) -->
+        <item name="android:textColor">#FFFFFF</item> <!-- Text color (dark) -->
+    </style>
+
 </resources>

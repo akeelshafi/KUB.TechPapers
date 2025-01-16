@@ -41,4 +41,18 @@
     <string name="profile_img">profile_img</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="civil_engineering_semesters">Civil Engineering\nSemesters</string>
+    <string name="_1st_semester">1st Semester</string>
+    <string name="_2nd_semester">2nd Semester</string>
+    <string name="_3rd_semester">3rd Semester</string>
+    <string name="_4th_semester">4th Semester</string>
+    <string name="_5th_semester">5th Semester</string>
+    <string name="_6th_semester">6th Semester</string>
+    <string name="_7th_semester">7th Semester</string>
+    <string name="_8th_semester">8th Semester</string>
+    <string name="civil_engineering_syllabus">Civil Engineering\nSyllabus</string>
+    <string name="b_tech_computer_engineering">B.Tech Computer Engineering</string>
+    <string name="pdf_img">pdfimg</string>
+    <string name="arrow_img">arrow_img</string>
+    <string name="b_tech_electronics_engineering">B.Tech Electronics Engineering</string>
 </resources>
