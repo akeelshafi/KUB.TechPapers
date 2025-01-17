@@ -13,11 +13,11 @@
         android:layout_height="?attr/actionBarSize"
         android:background="@color/toolbar_color"
         android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:title="University of Kashmir"
-        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" />
+        app:title="University of Kashmir" />
 
     <android.webkit.WebView
         android:id="@+id/result_web_view"

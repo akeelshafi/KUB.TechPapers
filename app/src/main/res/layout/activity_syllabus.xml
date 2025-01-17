@@ -5,10 +5,9 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".SyllabusActivity"
-    android:orientation="vertical"
     android:background="@color/white"
-    >
+    android:orientation="vertical"
+    tools:context=".SyllabusActivity">
 
     <!-- Toolbar -->
     <include layout="@layout/custom_toolbar" />
@@ -18,37 +17,37 @@
         android:id="@+id/frame"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/white"
-        />
+        android:background="@color/white" />
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical"
-        android:background="@color/white">
+        android:background="@color/white"
+        android:orientation="vertical">
 
         <androidx.cardview.widget.CardView
             android:id="@+id/syllabus_computer_engineering"
             android:layout_width="match_parent"
             android:layout_height="100dp"
-            app:cardCornerRadius="20dp"
             android:layout_marginStart="15dp"
-            android:layout_marginEnd="15dp"
             android:layout_marginTop="35dp"
-            android:elevation="80dp">
+            android:layout_marginEnd="15dp"
+            android:elevation="80dp"
+            app:cardCornerRadius="20dp">
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:background="@color/white"
                 android:orientation="horizontal"
-                android:padding="10dp"
-                android:background="@color/white">
+                android:padding="10dp">
 
                 <androidx.cardview.widget.CardView
                     android:layout_width="60dp"
                     android:layout_height="60dp"
+                    android:layout_gravity="center"
                     android:backgroundTint="#F4F3FB"
-                    app:cardCornerRadius="30dp"
-                    android:layout_gravity="center">
+                    app:cardCornerRadius="30dp">
 
                     <ImageView
                         android:id="@+id/pdf_icon"
@@ -64,8 +63,8 @@
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="10dp"
                     android:layout_gravity="center"
+                    android:layout_marginStart="10dp"
                     android:orientation="vertical">
 
                     <TextView
@@ -73,8 +72,9 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/b_tech_computer_engineering"
-                        android:textSize="15sp"
-                        android:textColor="@color/black"/>
+                        android:textColor="@color/black"
+                        android:textSize="15sp" />
+
                     <TextView
                         android:id="@+id/subject_subtitle"
                         android:layout_width="wrap_content"
@@ -93,36 +93,37 @@
                     android:layout_gravity="center_vertical"
                     android:layout_weight="1"
                     android:contentDescription="@string/arrow_img"
-                    app:srcCompat="@drawable/baseline_chevron_right_24"
-                    android:scaleType="fitEnd"/>
+                    android:scaleType="fitEnd"
+                    app:srcCompat="@drawable/baseline_chevron_right_24" />
 
 
             </LinearLayout>
 
         </androidx.cardview.widget.CardView>
+
         <androidx.cardview.widget.CardView
             android:id="@+id/syllabus_civil_engineering"
             android:layout_width="match_parent"
             android:layout_height="100dp"
-            app:cardCornerRadius="20dp"
-            android:layout_marginTop="15dp"
             android:layout_marginStart="15dp"
+            android:layout_marginTop="15dp"
             android:layout_marginEnd="15dp"
-            android:elevation="80dp">
+            android:elevation="80dp"
+            app:cardCornerRadius="20dp">
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:background="@color/white"
                 android:orientation="horizontal"
-                android:padding="10dp"
-                android:background="@color/white">
+                android:padding="10dp">
 
                 <androidx.cardview.widget.CardView
                     android:layout_width="60dp"
                     android:layout_height="60dp"
+                    android:layout_gravity="center"
                     android:backgroundTint="#F4F3FB"
-                    app:cardCornerRadius="30dp"
-                    android:layout_gravity="center">
+                    app:cardCornerRadius="30dp">
 
                     <ImageView
                         android:id="@+id/pdf_icon2"
@@ -130,16 +131,15 @@
                         android:layout_height="wrap_content"
                         android:contentDescription="@string/pdf_img"
                         android:padding="10dp"
-                        android:src="@drawable/pdfimg"
-                        />
+                        android:src="@drawable/pdfimg" />
 
                 </androidx.cardview.widget.CardView>
 
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="10dp"
                     android:layout_gravity="center"
+                    android:layout_marginStart="10dp"
                     android:orientation="vertical">
 
                     <TextView
@@ -147,8 +147,9 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/b_tech_civil_engineering"
-                        android:textSize="15sp"
-                        android:textColor="@color/black"/>
+                        android:textColor="@color/black"
+                        android:textSize="15sp" />
+
                     <TextView
                         android:id="@+id/subject_subtitle2"
                         android:layout_width="wrap_content"
@@ -166,41 +167,42 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical"
                     android:layout_weight="1"
-                    app:srcCompat="@drawable/baseline_chevron_right_24"
                     android:contentDescription="@string/arrow_img"
+                    android:scaleType="fitEnd"
 
-                    android:scaleType="fitEnd"/>
+                    app:srcCompat="@drawable/baseline_chevron_right_24" />
 
 
             </LinearLayout>
 
         </androidx.cardview.widget.CardView>
+
         <androidx.cardview.widget.CardView
             android:id="@+id/syllabus_mechanical_engineering"
             android:layout_width="match_parent"
             android:layout_height="100dp"
-            app:cardCornerRadius="20dp"
-            android:layout_marginTop="15dp"
             android:layout_marginStart="15dp"
+            android:layout_marginTop="15dp"
             android:layout_marginEnd="15dp"
+            android:background="@color/white"
             android:elevation="80dp"
-            android:background="@color/white">
+            app:cardCornerRadius="20dp">
 
 
-        <LinearLayout
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:background="@color/white"
                 android:orientation="horizontal"
-                android:padding="10dp"
-                android:background="@color/white">
+                android:padding="10dp">
 
 
-        <androidx.cardview.widget.CardView
+                <androidx.cardview.widget.CardView
                     android:layout_width="60dp"
                     android:layout_height="60dp"
+                    android:layout_gravity="center"
                     android:backgroundTint="#F4F3FB"
-                    app:cardCornerRadius="30dp"
-                    android:layout_gravity="center">
+                    app:cardCornerRadius="30dp">
 
                     <ImageView
                         android:id="@+id/pdf_icon3"
@@ -208,16 +210,15 @@
                         android:layout_height="wrap_content"
                         android:contentDescription="@string/pdf_img"
                         android:padding="10dp"
-                        android:src="@drawable/pdfimg"
-                        />
+                        android:src="@drawable/pdfimg" />
 
                 </androidx.cardview.widget.CardView>
 
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="10dp"
                     android:layout_gravity="center"
+                    android:layout_marginStart="10dp"
                     android:orientation="vertical">
 
                     <TextView
@@ -225,8 +226,9 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/b_tech_mechanical_engineering"
-                        android:textSize="15sp"
-                        android:textColor="@color/black"/>
+                        android:textColor="@color/black"
+                        android:textSize="15sp" />
+
                     <TextView
                         android:id="@+id/subject_subtitle3"
                         android:layout_width="wrap_content"
@@ -252,30 +254,31 @@
             </LinearLayout>
 
         </androidx.cardview.widget.CardView>
+
         <androidx.cardview.widget.CardView
             android:id="@+id/syllabus_electrical_engineering"
             android:layout_width="match_parent"
             android:layout_height="100dp"
-            app:cardCornerRadius="20dp"
+            android:layout_marginStart="15dp"
             android:layout_marginTop="15dp"
             android:layout_marginEnd="15dp"
-            android:layout_marginStart="15dp"
-            android:elevation="80dp">
+            android:elevation="80dp"
+            app:cardCornerRadius="20dp">
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:background="@color/white"
                 android:orientation="horizontal"
-                android:padding="10dp"
-                android:background="@color/white">
+                android:padding="10dp">
 
 
-            <androidx.cardview.widget.CardView
+                <androidx.cardview.widget.CardView
                     android:layout_width="60dp"
                     android:layout_height="60dp"
+                    android:layout_gravity="center"
                     android:backgroundTint="#F4F3FB"
-                    app:cardCornerRadius="30dp"
-                    android:layout_gravity="center">
+                    app:cardCornerRadius="30dp">
 
                     <ImageView
                         android:id="@+id/pdf_icon4"
@@ -283,16 +286,15 @@
                         android:layout_height="wrap_content"
                         android:contentDescription="@string/pdf_img"
                         android:padding="10dp"
-                        android:src="@drawable/pdfimg"
-                        />
+                        android:src="@drawable/pdfimg" />
 
                 </androidx.cardview.widget.CardView>
 
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="10dp"
                     android:layout_gravity="center"
+                    android:layout_marginStart="10dp"
                     android:orientation="vertical">
 
                     <TextView
@@ -300,8 +302,9 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/b_tech_electrical_engineering"
-                        android:textSize="15sp"
-                        android:textColor="@color/black"/>
+                        android:textColor="@color/black"
+                        android:textSize="15sp" />
+
                     <TextView
                         android:id="@+id/subject_subtitle4"
                         android:layout_width="wrap_content"
@@ -319,34 +322,35 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical"
                     android:layout_weight="1"
-                    app:srcCompat="@drawable/baseline_chevron_right_24"
                     android:contentDescription="@string/arrow_img"
+                    android:scaleType="fitEnd"
 
-                    android:scaleType="fitEnd"/>
+                    app:srcCompat="@drawable/baseline_chevron_right_24" />
 
 
             </LinearLayout>
 
         </androidx.cardview.widget.CardView>
+
         <androidx.cardview.widget.CardView
             android:id="@+id/syllabus_electronics_engineering"
             android:layout_width="match_parent"
             android:layout_height="100dp"
-            app:cardCornerRadius="20dp"
+            android:layout_marginStart="15dp"
             android:layout_marginTop="15dp"
             android:layout_marginEnd="15dp"
-            android:layout_marginStart="15dp"
-            android:elevation="80dp">
+            android:elevation="80dp"
+            app:cardCornerRadius="20dp">
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:background="@color/white"
                 android:orientation="horizontal"
-                android:padding="10dp"
-                android:background="@color/white">
+                android:padding="10dp">
 
 
-            <androidx.cardview.widget.CardView
+                <androidx.cardview.widget.CardView
                     android:layout_width="60dp"
                     android:layout_height="60dp"
                     android:layout_gravity="center"
@@ -395,8 +399,8 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical"
                     android:layout_weight="1"
-                    android:scaleType="fitEnd"
                     android:contentDescription="@string/arrow_img"
+                    android:scaleType="fitEnd"
                     app:srcCompat="@drawable/baseline_chevron_right_24" />
 
 
@@ -405,10 +409,6 @@
         </androidx.cardview.widget.CardView>
 
     </LinearLayout>
-
-
-
-
 
 
 </LinearLayout>
