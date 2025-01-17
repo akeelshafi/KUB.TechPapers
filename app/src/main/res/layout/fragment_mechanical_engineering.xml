@@ -92,7 +92,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:background="@drawable/results"
+                    android:background="@drawable/previous_year_question_papers"
                     android:gravity="center_vertical"
                     android:paddingStart="25dp"
                     android:text="@string/_4th_semester"
@@ -149,7 +149,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:background="@drawable/previous_year_question_papers"
+                    android:background="@drawable/study_material"
                     android:gravity="center_vertical"
                     android:paddingStart="25dp"
                     android:text="@string/_7th_semester"
