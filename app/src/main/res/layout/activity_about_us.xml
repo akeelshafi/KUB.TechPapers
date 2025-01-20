@@ -18,16 +18,16 @@
 
         <!-- Profile Image -->
         <androidx.cardview.widget.CardView
-            android:layout_width="180dp"
-            android:layout_height="180dp"
+            android:layout_width="220dp"
+            android:layout_height="220dp"
             android:layout_gravity="center"
-            android:layout_marginTop="15dp"
-            app:cardCornerRadius="90dp">
+            android:layout_marginTop="20dp"
+            app:cardCornerRadius="110dp">
 
             <ImageView
                 android:id="@+id/profile"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:contentDescription="@string/profile_img"
                 android:src="@drawable/akeelimg" />
         </androidx.cardview.widget.CardView>
