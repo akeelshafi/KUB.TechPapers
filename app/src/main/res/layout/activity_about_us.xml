@@ -76,7 +76,9 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:contentDescription="@string/app_logo"
-                        android:src="@drawable/whatsapp_img" />
+                        android:src="@drawable/app_logo"
+                        android:padding="6dp"
+                        />
                 </androidx.cardview.widget.CardView>
 
                 <TextView
