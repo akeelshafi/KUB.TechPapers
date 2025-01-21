@@ -67,8 +67,7 @@
                     android:layout_width="90dp"
                     android:layout_height="90dp"
                     android:layout_gravity="center"
-                    android:backgroundTint="@color/toolbar_color"
-                    android:elevation="4dp"
+                    android:elevation="100dp"
                     app:cardCornerRadius="45dp">
 
                     <ImageView
@@ -76,8 +75,9 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:contentDescription="@string/app_logo"
-                        android:src="@drawable/app_logo"
+                        android:src="@drawable/colorswatch"
                         android:padding="6dp"
+
                         />
                 </androidx.cardview.widget.CardView>
 
