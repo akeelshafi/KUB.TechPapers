@@ -198,8 +198,7 @@
                         android:layout_weight="1"
                         android:contentDescription="@string/result_image"
                         android:scaleType="fitStart"
-                        app:srcCompat="@drawable/resultimg"
-                        tools:ignore="ImageContrastCheck" />
+                        app:srcCompat="@drawable/resultimg" />
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
             <!-- Card for About Us -->
