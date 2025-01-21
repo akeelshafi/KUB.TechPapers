@@ -14,14 +14,14 @@ import com.akeel.kubtechpapers.R
 class CivilEngineeringFragment : Fragment() {
 
     // URLs for each card
-    private val urlUnit1 = "https://drive.google.com/drive/folders/1C6oKSh4DLaM85NkmbZER_nuQkkJfPQ9C?usp=sharing"
-    private val urlUnit2 = "https://drive.google.com/file/d/1GVnQn3TBgx3c4YSuTfk55oYV1MQmj97i/view?usp=sharing"
-    private val urlUnit3 = "https://drive.google.com/file/d/1GVnQn3TBgx3c4YSuTfk55oYV1MQmj97i/view?usp=sharing"
-    private val urlUnit4 = "https://drive.google.com/file/d/1GVnQn3TBgx3c4YSuTfk55oYV1MQmj97i/view?usp=sharing"
-    private val urlUnit5 = "https://drive.google.com/file/d/1GVnQn3TBgx3c4YSuTfk55oYV1MQmj97i/view?usp=sharing"
-    private val urlUnit6 = "https://drive.google.com/file/d/1GVnQn3TBgx3c4YSuTfk55oYV1MQmj97i/view?usp=sharing"
-    private val urlUnit7 = "https://drive.google.com/file/d/1GVnQn3TBgx3c4YSuTfk55oYV1MQmj97i/view?usp=sharing"
-    private val urlUnit8 = "https://drive.google.com/file/d/1GVnQn3TBgx3c4YSuTfk55oYV1MQmj97i/view?usp=sharing"
+    private val urlUnit1 = "https://drive.google.com/drive/folders/1CqFsKV3Z8GHrVnAR89Z259sVYN_rhpK6?usp=drive_link"
+    private val urlUnit2 = "https://drive.google.com/drive/folders/1CuM9Y_ki4v1u4H0qe70Jf7M2SU2BVsID?usp=drive_link"
+    private val urlUnit3 = "https://drive.google.com/drive/folders/1CvsNEGrsctakoZpsVfX0knNSQn8mIgKr?usp=drive_link"
+    private val urlUnit4 = "https://drive.google.com/drive/folders/1CvuasJ3aleEo9cIkSXzCvkFRzbWTRG8e?usp=drive_link"
+    private val urlUnit5 = "https://drive.google.com/drive/folders/1CxG-573lcwc-69jnXv_i2PXk3H8CAo7r?usp=drive_link"
+    private val urlUnit6 = "https://drive.google.com/drive/folders/1D-7PaBM3Iyd7Hq4xp6IOEwfbe_TmI_Gw?usp=drive_link"
+    private val urlUnit7 = "https://drive.google.com/drive/folders/1D2rBTMZ_tW2YTl_7OE7EuYWPeXOv5lvC?usp=drive_link"
+    private val urlUnit8 = "https://drive.google.com/drive/folders/1D7puj22kHKA1UDswBkN_oh_uHJr_-5Wd?usp=drive_link"
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,

@@ -13,14 +13,14 @@ import com.akeel.kubtechpapers.WebViewActivity
 class ComputerSyllabusFragment : Fragment() {
 
     // URLs for each card
-    private val urlUnit1 = "https://drive.google.com/drive/folders/1C6oKSh4DLaM85NkmbZER_nuQkkJfPQ9C?usp=sharing"
-    private val urlUnit2 = "https://drive.google.com/drive/folders/1C6oKSh4DLaM85NkmbZER_nuQkkJfPQ9C?usp=sharing"
-    private val urlUnit3 = "https://drive.google.com/drive/folders/1C6oKSh4DLaM85NkmbZER_nuQkkJfPQ9C?usp=sharing"
-    private val urlUnit4 = "https://drive.google.com/drive/folders/1C6oKSh4DLaM85NkmbZER_nuQkkJfPQ9C?usp=sharing"
-    private val urlUnit5 = "https://drive.google.com/file/d/1GVnQn3TBgx3c4YSuTfk55oYV1MQmj97i/view?usp=sharing"
-    private val urlUnit6 = "https://drive.google.com/file/d/1GVnQn3TBgx3c4YSuTfk55oYV1MQmj97i/view?usp=sharing"
-    private val urlUnit7 = "https://drive.google.com/file/d/1GVnQn3TBgx3c4YSuTfk55oYV1MQmj97i/view?usp=sharing"
-    private val urlUnit8 = "https://drive.google.com/file/d/1GVnQn3TBgx3c4YSuTfk55oYV1MQmj97i/view?usp=sharing"
+    private val urlUnit1 = "https://drive.google.com/drive/folders/1d4SJOmJE5wqnpYu14zvnB8g6SaeWHZam?usp=drive_link"
+    private val urlUnit2 = "https://drive.google.com/drive/folders/1zBu4f9_NHT8pvJnR0E2QQVGWg3zNPBd8?usp=drive_link"
+    private val urlUnit3 = "https://drive.google.com/drive/folders/1MEbRjb1wwDSqblLoDTF5-8w-OybMgX5W?usp=drive_link"
+    private val urlUnit4 = "https://drive.google.com/drive/folders/1ohtqJ8bl4DUV22LyJkS8ti91u109lQCm?usp=drive_link"
+    private val urlUnit5 = "https://drive.google.com/drive/folders/1NmOEqa3IVUYItkLSxqjgJCnfLzPef3-L?usp=drive_link"
+    private val urlUnit6 = "https://drive.google.com/drive/folders/1e2kWuZke1bdS9ZLrWWNGUH5iM3nN4GZI?usp=drive_link"
+    private val urlUnit7 = "https://drive.google.com/drive/folders/1-V9KfMj5VMZMgeLPYHytFRtLb1qJuz0O?usp=drive_link"
+    private val urlUnit8 = "https://drive.google.com/drive/folders/10oI8WNJ7R2veHOjIf7ywevRgiVxfN97g?usp=drive_link"
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,

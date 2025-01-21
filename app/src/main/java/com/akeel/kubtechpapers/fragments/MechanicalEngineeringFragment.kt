@@ -12,14 +12,14 @@ import com.akeel.kubtechpapers.R
 
 class MechanicalEngineeringFragment : Fragment() {
     // URLs for each card
-    private val urlUnit1 = "https://drive.google.com/drive/folders/1C6oKSh4DLaM85NkmbZER_nuQkkJfPQ9C?usp=sharing"
-    private val urlUnit2 = "https://drive.google.com/file/d/1GVnQn3TBgx3c4YSuTfk55oYV1MQmj97i/view?usp=sharing"
-    private val urlUnit3 = "https://drive.google.com/file/d/1GVnQn3TBgx3c4YSuTfk55oYV1MQmj97i/view?usp=sharing"
-    private val urlUnit4 = "https://drive.google.com/file/d/1GVnQn3TBgx3c4YSuTfk55oYV1MQmj97i/view?usp=sharing"
-    private val urlUnit5 = "https://drive.google.com/file/d/1GVnQn3TBgx3c4YSuTfk55oYV1MQmj97i/view?usp=sharing"
-    private val urlUnit6 = "https://drive.google.com/file/d/1GVnQn3TBgx3c4YSuTfk55oYV1MQmj97i/view?usp=sharing"
-    private val urlUnit7 = "https://drive.google.com/file/d/1GVnQn3TBgx3c4YSuTfk55oYV1MQmj97i/view?usp=sharing"
-    private val urlUnit8 = "https://drive.google.com/file/d/1GVnQn3TBgx3c4YSuTfk55oYV1MQmj97i/view?usp=sharing"
+    private val urlUnit1 = "https://drive.google.com/drive/folders/1Dwyn-GRFCPXhjFmGafNmC3UjTR7VQXNp?usp=drive_link"
+    private val urlUnit2 = "https://drive.google.com/drive/folders/1DxTJHRNBXxAkklFDtVeiiKgYE0He-c0M?usp=drive_link"
+    private val urlUnit3 = "https://drive.google.com/drive/folders/1DyYzOpCrVsYm5pnfeagXAwCBVLkG-td3?usp=drive_link"
+    private val urlUnit4 = "https://drive.google.com/drive/folders/1ECPVeewlcddL20gWI9e2zgpzfJlByL68?usp=drive_link"
+    private val urlUnit5 = "https://drive.google.com/drive/folders/1EHRCp9qmXh9JoPbLYWUzhY-uYT9-OW9H?usp=drive_link"
+    private val urlUnit6 = "https://drive.google.com/drive/folders/1EJHwpyW7Lyh8z6HxZGKuIQ4gau-kiR3Y?usp=drive_link"
+    private val urlUnit7 = "https://drive.google.com/drive/folders/1ES3bswzFG3eclQQ28QUU2suYqTlMZ2yP?usp=drive_link"
+    private val urlUnit8 = "https://drive.google.com/drive/folders/1ESAU6Y27D0hKVXAqrhqs53Qi61ggyuwj?usp=drive_link"
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,

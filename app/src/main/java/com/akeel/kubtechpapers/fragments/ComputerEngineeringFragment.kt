@@ -14,13 +14,13 @@ class ComputerEngineeringFragment : Fragment() {
 
     // URLs for each card
     private val urlUnit1 = "https://drive.google.com/drive/folders/1C6oKSh4DLaM85NkmbZER_nuQkkJfPQ9C?usp=sharing"
-    private val urlUnit2 = "https://drive.google.com/drive/folders/1C6oKSh4DLaM85NkmbZER_nuQkkJfPQ9C?usp=sharing"
-    private val urlUnit3 = "https://drive.google.com/drive/folders/1C6oKSh4DLaM85NkmbZER_nuQkkJfPQ9C?usp=sharing"
-    private val urlUnit4 = "https://drive.google.com/drive/folders/1C6oKSh4DLaM85NkmbZER_nuQkkJfPQ9C?usp=sharing"
-    private val urlUnit5 = "https://drive.google.com/file/d/1GVnQn3TBgx3c4YSuTfk55oYV1MQmj97i/view?usp=sharing"
-    private val urlUnit6 = "https://drive.google.com/file/d/1GVnQn3TBgx3c4YSuTfk55oYV1MQmj97i/view?usp=sharing"
-    private val urlUnit7 = "https://drive.google.com/file/d/1GVnQn3TBgx3c4YSuTfk55oYV1MQmj97i/view?usp=sharing"
-    private val urlUnit8 = "https://drive.google.com/file/d/1GVnQn3TBgx3c4YSuTfk55oYV1MQmj97i/view?usp=sharing"
+    private val urlUnit2 = "https://drive.google.com/drive/folders/1CK1G4oP15_QxQ5zG6VoBgCj7FsJk6wEg?usp=sharing"
+    private val urlUnit3 = "https://drive.google.com/drive/folders/1CR8GxQ7ODNHh4wcK0tpSz9sydZPdyvOw?usp=drive_link"
+    private val urlUnit4 = "https://drive.google.com/drive/folders/1CScvTbciy_6D2GmihwejVfznyvpJ6Avg?usp=drive_link"
+    private val urlUnit5 = "https://drive.google.com/drive/folders/1CVjIeChCTB6cvdz18Jqq_VOaHNw5j0fr?usp=drive_link"
+    private val urlUnit6 = "https://drive.google.com/drive/folders/1CcTCxBOk2AgDk_9odA8BtYBmOIcJcPbJ?usp=drive_link"
+    private val urlUnit7 = "https://drive.google.com/drive/folders/1Cfsg5G499SwMnssIlH-ryxlnhb13s54q?usp=drive_link"
+    private val urlUnit8 = "https://drive.google.com/drive/folders/1Cguzg56yjp2FiDt9TacvdKp-ZQ_jW1qP?usp=drive_link"
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,

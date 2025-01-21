@@ -14,14 +14,14 @@ import com.akeel.kubtechpapers.R
 class ElectricalEngineeringFragment : Fragment() {
 
         // URLs for each card
-        private val urlUnit1 = "https://drive.google.com/drive/folders/1C6oKSh4DLaM85NkmbZER_nuQkkJfPQ9C?usp=sharing"
-        private val urlUnit2 = "https://drive.google.com/file/d/1GVnQn3TBgx3c4YSuTfk55oYV1MQmj97i/view?usp=sharing"
-        private val urlUnit3 = "https://drive.google.com/file/d/1GVnQn3TBgx3c4YSuTfk55oYV1MQmj97i/view?usp=sharing"
-        private val urlUnit4 = "https://drive.google.com/file/d/1GVnQn3TBgx3c4YSuTfk55oYV1MQmj97i/view?usp=sharing"
-        private val urlUnit5 = "https://drive.google.com/file/d/1GVnQn3TBgx3c4YSuTfk55oYV1MQmj97i/view?usp=sharing"
-        private val urlUnit6 = "https://drive.google.com/file/d/1GVnQn3TBgx3c4YSuTfk55oYV1MQmj97i/view?usp=sharing"
-        private val urlUnit7 = "https://drive.google.com/file/d/1GVnQn3TBgx3c4YSuTfk55oYV1MQmj97i/view?usp=sharing"
-        private val urlUnit8 = "https://drive.google.com/file/d/1GVnQn3TBgx3c4YSuTfk55oYV1MQmj97i/view?usp=sharing"
+        private val urlUnit1 = "https://drive.google.com/drive/folders/1DJmqiXxy50Bg9zJKmMHuIwN3LzEQ7Ez-?usp=drive_link"
+        private val urlUnit2 = "https://drive.google.com/drive/folders/1DLcTnzMHYXaYZvPEOVJFZ6Otcohkycb9?usp=drive_link"
+        private val urlUnit3 = "https://drive.google.com/drive/folders/1DLkhs6QL6tuz77SWEEAJ4wKpuMV_xiYe?usp=drive_link"
+        private val urlUnit4 = "https://drive.google.com/drive/folders/1DLqU2TkpZhurrEc83H49e_Pmn-DslQD-?usp=drive_link"
+        private val urlUnit5 = "https://drive.google.com/drive/folders/1DWF1AkUkQ4HQRoTYk4NyzTNF0m5axTXj?usp=drive_link"
+        private val urlUnit6 = "https://drive.google.com/drive/folders/1DWabj5CIMoCPQzf8EeJqmg92HVjbVVe0?usp=drive_link"
+        private val urlUnit7 = "https://drive.google.com/drive/folders/1D_ocZaLyQvp8a0kAhKe1V_UEBNez6lDO?usp=drive_link"
+        private val urlUnit8 = "https://drive.google.com/drive/folders/1DkgxuVAy6Bir62j6MtdJrhL8ZzlGkZXZ?usp=drive_link"
 
         override fun onCreateView(
             inflater: LayoutInflater, container: ViewGroup?,

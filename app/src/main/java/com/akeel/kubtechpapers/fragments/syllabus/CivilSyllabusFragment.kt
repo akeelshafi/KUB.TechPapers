@@ -13,14 +13,14 @@ import com.akeel.kubtechpapers.WebViewActivity
 class CivilSyllabusFragment : Fragment() {
 
     // URLs for each card
-    private val urlUnit1 = "https://drive.google.com/drive/folders/1C6oKSh4DLaM85NkmbZER_nuQkkJfPQ9C?usp=sharing"
-    private val urlUnit2 = "https://drive.google.com/drive/folders/1C6oKSh4DLaM85NkmbZER_nuQkkJfPQ9C?usp=sharing"
-    private val urlUnit3 = "https://drive.google.com/drive/folders/1C6oKSh4DLaM85NkmbZER_nuQkkJfPQ9C?usp=sharing"
-    private val urlUnit4 = "https://drive.google.com/drive/folders/1C6oKSh4DLaM85NkmbZER_nuQkkJfPQ9C?usp=sharing"
-    private val urlUnit5 = "https://drive.google.com/file/d/1GVnQn3TBgx3c4YSuTfk55oYV1MQmj97i/view?usp=sharing"
-    private val urlUnit6 = "https://drive.google.com/file/d/1GVnQn3TBgx3c4YSuTfk55oYV1MQmj97i/view?usp=sharing"
-    private val urlUnit7 = "https://drive.google.com/file/d/1GVnQn3TBgx3c4YSuTfk55oYV1MQmj97i/view?usp=sharing"
-    private val urlUnit8 = "https://drive.google.com/file/d/1GVnQn3TBgx3c4YSuTfk55oYV1MQmj97i/view?usp=sharing"
+    private val urlUnit1 = "https://drive.google.com/drive/folders/1-oyCck8panASiuyIrmzBV0Qbgc6bPFh4?usp=sharing"
+    private val urlUnit2 = "https://drive.google.com/drive/folders/1GC7nEBI9ac09PTHSvI14DkeD-bHOjumB?usp=sharing"
+    private val urlUnit3 = "https://drive.google.com/drive/folders/1J9f6K2-queooOgdCATOoCRrW1JZkzwz-?usp=sharing"
+    private val urlUnit4 = "https://drive.google.com/drive/folders/1W8Qc_Q3j4zVwlW1mxbYmerri7Rxpe6Hp?usp=sharing"
+    private val urlUnit5 = "https://drive.google.com/drive/folders/1Xb6pxOyeTeGoHThowKOkY3RKv4d0fYcc?usp=sharing"
+    private val urlUnit6 = "https://drive.google.com/drive/folders/1ZnQiiKcCt12fEPHC6ZTZLy6d9dLqYKab?usp=sharing"
+    private val urlUnit7 = "https://drive.google.com/drive/folders/1iu3oE7SN2X3to5wE8-vzF9TkuPyZBhp6?usp=sharing"
+    private val urlUnit8 = "https://drive.google.com/drive/folders/1nyq5d02EUCLWdOp37fClDRODyLaQXMh0?usp=drive_link"
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
