@@ -114,10 +114,7 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:contentDescription="@string/civil_engineering"
-                        android:scaleType="fitStart"
-                        app:srcCompat="@drawable/civilimg"
-                        tools:ignore="ImageContrastCheck" />
-
+                        app:srcCompat="@drawable/civilimg" />
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
 
@@ -194,6 +191,7 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:contentDescription="@string/electrical_img"
+                        android:padding="6dp"
                         android:scaleType="fitStart"
                         app:srcCompat="@drawable/electricalimg"
                         tools:ignore="ImageContrastCheck" />

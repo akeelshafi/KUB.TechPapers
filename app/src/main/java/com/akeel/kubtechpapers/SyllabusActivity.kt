@@ -58,7 +58,10 @@ class SyllabusActivity : AppCompatActivity() {
     // Function to navigate to the selected fragment
     private fun navigateToFragment(fragment: androidx.fragment.app.Fragment) {
         val transaction: FragmentTransaction = supportFragmentManager.beginTransaction()
-        transaction.replace(R.id.frame, fragment)  // Replace the content of the frame with the fragment
+        transaction.replace(
+            R.id.frame,
+            fragment
+        )  // Replace the content of the frame with the fragment
         transaction.addToBackStack(null)  // Add the transaction to back stack
         transaction.commit()  // Commit the transaction
     }

@@ -38,7 +38,11 @@ class PaperDisplayActivity : AppCompatActivity() {
         webView.settings.javaScriptEnabled = true
         webView.webViewClient = object : WebViewClient() {
             // Show ProgressBar when page starts loading
-            override fun onPageStarted(view: WebView?, url: String?, favicon: android.graphics.Bitmap?) {
+            override fun onPageStarted(
+                view: WebView?,
+                url: String?,
+                favicon: android.graphics.Bitmap?
+            ) {
                 super.onPageStarted(view, url, favicon)
                 progressBar.visibility = ProgressBar.VISIBLE // Show ProgressBar
             }
@@ -58,6 +62,7 @@ class PaperDisplayActivity : AppCompatActivity() {
             webView.loadUrl("about:blank")
         }
     }
+
     override fun onKeyDown(keyCode: Int, event: KeyEvent?): Boolean {
         // Handle back press for WebView
         if (keyCode == KeyEvent.KEYCODE_BACK && webView.canGoBack()) {

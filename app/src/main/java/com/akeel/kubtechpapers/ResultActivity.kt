@@ -65,9 +65,10 @@ class ResultActivity : AppCompatActivity() {
             insets
         }
     }
+
     override fun onKeyDown(keyCode: Int, event: KeyEvent?): Boolean {
 
-        if (keyCode == KeyEvent.KEYCODE_BACK && binding.resultWebView.canGoBack()){
+        if (keyCode == KeyEvent.KEYCODE_BACK && binding.resultWebView.canGoBack()) {
             binding.resultWebView.goBack()
             return true
         }
