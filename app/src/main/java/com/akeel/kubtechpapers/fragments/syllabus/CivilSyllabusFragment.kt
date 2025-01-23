@@ -13,14 +13,14 @@ import com.akeel.kubtechpapers.WebViewActivity
 class CivilSyllabusFragment : Fragment() {
 
     // URLs for each card
-    private val urlUnit1 = "https://drive.google.com/drive/folders/1-oyCck8panASiuyIrmzBV0Qbgc6bPFh4?usp=sharing"
-    private val urlUnit2 = "https://drive.google.com/drive/folders/1GC7nEBI9ac09PTHSvI14DkeD-bHOjumB?usp=sharing"
-    private val urlUnit3 = "https://drive.google.com/drive/folders/1J9f6K2-queooOgdCATOoCRrW1JZkzwz-?usp=sharing"
-    private val urlUnit4 = "https://drive.google.com/drive/folders/1W8Qc_Q3j4zVwlW1mxbYmerri7Rxpe6Hp?usp=sharing"
-    private val urlUnit5 = "https://drive.google.com/drive/folders/1Xb6pxOyeTeGoHThowKOkY3RKv4d0fYcc?usp=sharing"
-    private val urlUnit6 = "https://drive.google.com/drive/folders/1ZnQiiKcCt12fEPHC6ZTZLy6d9dLqYKab?usp=sharing"
-    private val urlUnit7 = "https://drive.google.com/drive/folders/1iu3oE7SN2X3to5wE8-vzF9TkuPyZBhp6?usp=sharing"
-    private val urlUnit8 = "https://drive.google.com/drive/folders/1nyq5d02EUCLWdOp37fClDRODyLaQXMh0?usp=drive_link"
+    private val urlUnit1 = "https://drive.google.com/file/d/11YEyeggIHl7g9TnSmsW4OUe67xUoXc2K/view?usp=drive_link"
+    private val urlUnit2 = "https://drive.google.com/file/d/1ua5Y5jgHhkLVl5WQymRL5xGcE3PtRq76/view?usp=drive_link"
+    private val urlUnit3 = "https://drive.google.com/file/d/1tNl53qM107KRuj4b06o9y7I6C3atw8ii/view?usp=drive_link"
+    private val urlUnit4 = "https://drive.google.com/file/d/1bA3AEBGX9R8eMVYYGjvInLywE5aUk8k_/view?usp=drive_link"
+    private val urlUnit5 = "https://drive.google.com/file/d/1jzzqpTD0TXI03UFzeB5-DYk_ROS9jK2t/view?usp=drive_link"
+    private val urlUnit6 = "https://drive.google.com/file/d/1UOwLEgKp6n6sjglU2eBHc43vRVRtrbgL/view?usp=drive_link"
+    private val urlUnit7 = "https://drive.google.com/file/d/1ujfnAsXVZfpD-sPGLut7hdEt7Wg6HMji/view?usp=drive_link"
+    private val urlUnit8 = "https://drive.google.com/file/d/1JLqlg9ZWCPuuTIHMcZK0lCVT731S7LAf/view?usp=drive_link"
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
