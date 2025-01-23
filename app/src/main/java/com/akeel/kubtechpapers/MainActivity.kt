@@ -7,7 +7,6 @@ import android.view.Menu
 import android.view.MenuItem
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
-import androidx.appcompat.app.AppCompatDelegate
 import androidx.appcompat.widget.Toolbar
 import androidx.cardview.widget.CardView
 import androidx.core.view.ViewCompat
@@ -83,13 +82,13 @@ class MainActivity : AppCompatActivity() {
                 true
             }
 
-            R.id.privacy_policy -> {
-                // Open the Privacy Policy in a browser
-                val intent =
-                    Intent(Intent.ACTION_VIEW, Uri.parse("https://www.example.com/privacy-policy"))
-                startActivity(intent)
-                true
-            }
+            /*  R.id.privacy_policy -> {
+                  // Open the Privacy Policy in a browser
+                  val intent =
+                      Intent(Intent.ACTION_VIEW, Uri.parse("https://www.example.com/privacy-policy"))
+                  startActivity(intent)
+                  true
+              }*/
 
             R.id.check_for_updates -> {
                 // Check for app updates in the Play Store

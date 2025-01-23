@@ -81,14 +81,14 @@ class EngineeringBranchesActivity : AppCompatActivity() {
                 startActivity(intent)
                 true
             }
-
+/*
             R.id.privacy_policy -> {
                 // Open the Privacy Policy in a browser
                 val intent =
                     Intent(Intent.ACTION_VIEW, Uri.parse("https://www.example.com/privacy-policy"))
                 startActivity(intent)
                 true
-            }
+            }*/
 
             R.id.check_for_updates -> {
                 // Check for app updates in the Play Store
