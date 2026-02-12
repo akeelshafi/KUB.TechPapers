@@ -39,10 +39,14 @@ The app simplifies exam preparation by providing **organized academic resources 
 
 <p align="center">
   <img src="screenshots/Screenshot_2026-02-12-22-45-43-69_c0e094300abf22689127077734bf86ea.jpg" width="200"/>
+  
   <img src="screenshots/Screenshot_2026-02-12-22-45-49-63_c0e094300abf22689127077734bf86ea.jpg" width="200"/>
+  
   <img src="screenshots/Screenshot_2026-02-12-22-45-52-80_c0e094300abf22689127077734bf86ea.jpg" width="200"/>
+  
   <img src="screenshots/Screenshot_2026-02-12-22-45-57-57_c0e094300abf22689127077734bf86ea.jpg" width="200"/>
-  <img src="screenshots/Screenshot_2026-02-12-22-46-13-74_c0e094300abf2268912707.jpg" width="200"/>
+  
+  <img src="screenshots/Screenshot_2026-02-12-22-46-13-74_c0e094300abf22689127077734bf86ea.jpg" width="200"/>
 </p>
 
 *Add these images to a folder named `screenshots` in your repo, then keep the paths below.*
