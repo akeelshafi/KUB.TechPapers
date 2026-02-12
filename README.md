@@ -39,7 +39,8 @@ The app simplifies exam preparation by providing **organized academic resources 
 ### Home Screen
 
 ```
-![Home](screenshots/home.jpg)
+![Home](![Screenshot_2026-02-12-22-45-43-69_c0e094300abf22689127077734bf86ea](https://github.com/user-attachments/assets/29a66465-c3c6-47d7-821c-b30c9cbd6919)
+)
 ```
 
 ### Branch Selection
