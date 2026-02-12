@@ -39,7 +39,9 @@ The app simplifies exam preparation by providing **organized academic resources 
   <img src="screenshots/Screenshot_2026-02-12-22-45-49-63_c0e094300abf22689127077734bf86ea.jpg" width="200"/>&nbsp;&nbsp;
   <img src="screenshots/Screenshot_2026-02-12-22-45-52-80_c0e094300abf22689127077734bf86ea.jpg" width="200"/>&nbsp;&nbsp;
   <img src="screenshots/Screenshot_2026-02-12-22-45-57-57_c0e094300abf22689127077734bf86ea.jpg" width="200"/>&nbsp;&nbsp;
+  <img src="screenshots/Screenshot_2026-02-12-22-46-13-74_c0e094300abf22689127077734bf86ea.jpg" width="200"/>&nbsp;&nbsp;
 </p>
+
 
 
 
