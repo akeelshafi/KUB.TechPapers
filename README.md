@@ -34,9 +34,6 @@ The app simplifies exam preparation by providing **organized academic resources 
 
 ## 📸 Screenshots
 
-
-## 📸 Screenshots
-
 <p align="center">
   <img src="screenshots/Screenshot_2026-02-12-22-45-43-69_c0e094300abf22689127077734bf86ea.jpg" width="200"/>
   
@@ -46,37 +43,7 @@ The app simplifies exam preparation by providing **organized academic resources 
   
   <img src="screenshots/Screenshot_2026-02-12-22-45-57-57_c0e094300abf22689127077734bf86ea.jpg" width="200"/>
   
-  <img src="screenshots/Screenshot_2026-02-12-22-46-13-74_c0e094300abf22689127077734bf86ea.jpg" width="200"/>
 </p>
-
-*Add these images to a folder named `screenshots` in your repo, then keep the paths below.*
-
-### Home Screen
-
-```
-![Home](![Screenshot_2026-02-12-22-45-43-69_c0e094300abf22689127077734bf86ea](https://github.com/user-attachments/assets/29a66465-c3c6-47d7-821c-b30c9cbd6919)
-)
-```
-
-### Branch Selection
-
-```
-![Branches](screenshots/branches.jpg)
-```
-
-### Semester List
-
-```
-![Semesters](screenshots/semesters.jpg)
-```
-
-### Syllabus List
-
-```
-![Syllabus](screenshots/syllabus.jpg)
-```
-
----
 
 ## 🚀 Installation
 
