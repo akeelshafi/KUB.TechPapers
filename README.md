@@ -37,7 +37,6 @@ The app simplifies exam preparation by providing **organized academic resources 
 
 
 
-
 ## 🚀 Installation
 
 1. Clone the repository
