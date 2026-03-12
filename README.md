@@ -29,7 +29,6 @@ The app simplifies exam preparation by providing **organized academic resources 
 **Tools:** Android Studio, Git, GitHub
 
 ---
-
 ## 📸 Screenshots
 
 <p align="center">
