@@ -2,7 +2,7 @@
 
 An Android application designed for
 
- **Kashmir University B.Tech students** to easily access:
+**Kashmir University B.Tech students** to easily access:
 
 * 📚 Syllabus
 * 📝 Previous year question papers
