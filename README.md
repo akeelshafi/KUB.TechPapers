@@ -84,7 +84,6 @@ Android Developer
 
 This project is for **educational and academic support purposes**.
 ---
-
 # ⭐ Recruiter Note
 
 This application demonstrates:
