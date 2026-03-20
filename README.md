@@ -17,7 +17,6 @@ The app simplifies exam preparation by providing **organized academic resources 
 * Lightweight and **easy navigation**
 ---
 ## 🛠 Tech Stack
-
 **Language:** Kotlin
 **UI:** XML Layouts, Material Design
 **Architecture:** Standard Android architecture
