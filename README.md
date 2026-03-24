@@ -15,7 +15,6 @@ The app simplifies exam preparation by providing **organized academic resources 
 * Check **results updates**
 * Clean **modern UI with gradient cards**
 * Lightweight and **easy navigation**
-
 ---
 ## 🛠 Tech Stack
 **Language:** Kotlin
