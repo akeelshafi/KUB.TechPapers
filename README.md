@@ -8,7 +8,6 @@ An Android application designed for
 The app simplifies exam preparation by providing **organized academic resources in one place** with a clean and user-friendly interface.
 ---
 ## ✨ Features
-
 * Browse **engineering branches and semesters**
 * Access **syllabus PDFs** quickly
 * View **previous year question papers**
