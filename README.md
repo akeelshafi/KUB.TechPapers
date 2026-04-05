@@ -9,7 +9,6 @@ The app simplifies exam preparation by providing **organized academic resources 
 ---
 ## ✨ Features
 * Browse **engineering branches and semesters**
-
 * Access **syllabus PDFs** quickly
 * View **previous year question papers**
 * Explore **study materials for exam preparation**
