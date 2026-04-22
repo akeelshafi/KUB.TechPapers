@@ -21,7 +21,6 @@ The app simplifies exam preparation by providing **organized academic resources 
 **UI:** XML Layouts, Material Design
 **Architecture:** Standard Android architecture
 **Tools:** Android Studio, Git, GitHub
-
 ---
 
 ## 📸 Screenshots
