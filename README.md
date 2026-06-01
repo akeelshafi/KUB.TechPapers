@@ -8,6 +8,7 @@ An Android application designed for
 * 📖 Study materials
 * 📊 Results
 The app simplifies exam preparation by providing **organized academic resources in one place** with a clean and user-friendly interface.
+
 ---
 ## ✨ Features
 * Browse **engineering branches and semesters**
